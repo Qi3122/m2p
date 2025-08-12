@@ -29,7 +29,7 @@ const defaultMd = `# Markdown Poster
 
 1. 将Markdown 转化为 **图文海报**
 2. 可以**自定义**文本主题、背景、字体大小
-3. 可以复制图片到`剪贴板`，或者`下载为PNG图片`
+3. 可以复制图片到\`剪贴板\`，或者\`下载为PNG图片\`
 4. 所见即所得
 5. 免费
 6. 支持使用API调用，仅需注册后免费获取一个Token。
@@ -39,8 +39,8 @@ const defaultMd = `# Markdown Poster
 1. 制作*简报*
 2. 制作*社交媒体分享图*
 3. 制作*文章海报*
-4. 任何你想到的...
-  `
+4. 任何你想到的...`;
+
 
 export default function Editor() {
   const [mdString, setMdString] = useState(defaultMd)
