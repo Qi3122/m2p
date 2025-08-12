@@ -1,5 +1,5 @@
 'use client'
-import MdHome from '@/markdown/home.mdx'
+//import MdHome from '@/markdown/home.mdx'
 import Section from '@/components/Section'
 import dynamic from 'next/dynamic'
 
