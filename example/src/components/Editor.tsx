@@ -19,15 +19,27 @@ const Textarea: React.FC<TextareaHTMLAttributes<HTMLTextAreaElement>> = ({ onCha
   )
 }
 
-const defaultMd = `# AI Morning News - April 29th
-![image](https://imageio.forbes.com/specials-images/imageserve/64b5825a5b9b4d3225e9bd15/artificial-intelligence--ai/960x0.jpg?format=jpg&width=1440)
-1. **MetaElephant Company Releases Multi-Modal Large Model XVERSE-V**: Supports image input of any aspect ratio, performs well in multiple authoritative evaluations, and has been open-sourced.
-2. **Tongyi Qianwen Team Open-Sources Billion-Parameter Model Qwen1.5-110B**: Uses Transformer decoder architecture, supports multiple languages, and has an efficient attention mechanism.
-3. **Shengshu Technology and Tsinghua University Release Video Large Model Vidu**: Adopts a fusion architecture of Diffusion and Transformer, generates high-definition videos with one click, leading internationally.
-4. **Mutable AI Launches Auto Wiki v2**: Automatically converts code into Wikipedia-style articles, solving the problem of code documentation.
-5. **Google Builds New Data Center in the U.S.**: Plans to invest $3 billion to build a data center campus in Indiana, expand facilities in Virginia, and launch an artificial intelligence opportunity fund.
-6. **China Academy of Information and Communications Technology Releases Automobile Large Model Standard**: Aims to standardize and promote the intelligent development of the automotive industry.
-7. Kimi Chat Mobile App Update: Version 1.2.1 completely revamps the user interface, introduces a new light mode, and provides a comfortable and intuitive experience.
+const defaultMd = `# Markdown Poster
+
+> Markdown Poster 是一个工具，可以让你用 Markdown 制作优雅的图文海报。 🌟
+
+![](https://picsum.photos/600/300)
+
+## 它的主要功能：
+
+1. 将Markdown 转化为 **图文海报**
+2. 可以**自定义**文本主题、背景、字体大小
+3. 可以复制图片到`剪贴板`，或者`下载为PNG图片`
+4. 所见即所得
+5. 免费
+6. 支持使用API调用，仅需注册后免费获取一个Token。
+
+## 你可以将其用于：
+
+1. 制作*简报*
+2. 制作*社交媒体分享图*
+3. 制作*文章海报*
+4. 任何你想到的...
   `
 
 export default function Editor() {
