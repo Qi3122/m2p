@@ -16,7 +16,7 @@ export default function Footer() {
         className="px-6 py-3 rounded-full flex justify-center items-center gap-2"
       >
         <span>© 2025</span>
-        <Link href="iamqi.com">Qi</Link>
+        <Link href="http://iamqi.com">Qi</Link>
       </p>
     </footer>
   )
